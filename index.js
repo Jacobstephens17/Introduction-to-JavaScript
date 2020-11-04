@@ -222,7 +222,10 @@ Using the annoyingSong function below do the following:
     "(number) bottles of soda on the wall, (number) bottles of soda, take one down pass it around (number left over) bottles of soda on the wall"
 */
 
-function annoyingSong(startingNum){
+function annoyingSong(num){
+  for(num = numLeft; num > 5; numLeft--){
+    console.log("${num} bottles of soda on the wall, ${num} bottles of soda, take one down pass it around ${numLeft} bottles of soda on the wall");
+  }
    
 }
 
