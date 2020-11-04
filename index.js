@@ -223,11 +223,11 @@ Using the annoyingSong function below do the following:
 */
 
 function annoyingSong(num){
-  for(num = numLeft; num > 5; numLeft--){
-    console.log("${num} bottles of soda on the wall, ${num} bottles of soda, take one down pass it around ${numLeft} bottles of soda on the wall");
+  for(let numLeft = num -1; numLeft >= 5; numLeft--){
+    console.log(`${num} bottles of soda on the wall, ${num} bottles of soda, take one down pass it around ${numLeft} bottles of soda on the wall`);
   }
-   
 }
+annoyingSong(14);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
