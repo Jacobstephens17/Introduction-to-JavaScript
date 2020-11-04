@@ -68,7 +68,10 @@ Do the following:
    2. Receive the numbers in the parameters: a and b
    3. Multiply a and b and return the answer
 */
-
+function multiply(a,b){
+  return a * b;
+ }
+ console.log(multiply(10,8));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -151,22 +154,20 @@ Use the game function below to do the following:
   
   HINT: While you can complete this with only conditionals based on strings, it may help to equate choice to a number when using Math.random()
 */
-let computer = Math.random();
-let user = Math.random();
 
 function game(user, computer){
-  if(computer <= .33){
+  if(computer === 1){
+    computer = "rock";
+  }else if(computer !== 1 && computer != 3){
     computer = "paper";
-  }else if(computer > .33 && computer <= .67){
-    computer = "scissors";
-  }else if(computer > .67){
-    computer = "rock"
-  }if(user <= .33){
+  }else if(computer > 2){
+    computer = "scissors"
+  }if(user === 1){
+    user = "rock";
+  }else if(user !== 1 && user !== 3){
     user = "paper";
-  }else if(user > .33 && computer <= .67){
-    user = "scissors";
-  }else if(user > .67){
-    user = "rock"
+  }else if(user > 2){
+    user = "scissors"
   } if (user  === "paper" && computer === "rock" || user === "rock" && computer === "scissors" || user === "scissors" && computer === "paper"){
     return "User Wins!";
   } else if (computer  === "paper" && user === "rock" || computer === "rock" && user === "scissors" || computer === "scissors" && user === "paper"){
@@ -175,6 +176,8 @@ function game(user, computer){
     return "Its a tie!"
   }
 }
+
+console.log(game(2,Math.floor(Math.random()*3)+1));
 
 
 
@@ -204,11 +207,10 @@ Using the feet function below do the following:
 3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-  /*add your code here*/
+function feet(centimeter){
+  return centimeter * 30.4;
 }
-
-
+console.log(feet(15));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
