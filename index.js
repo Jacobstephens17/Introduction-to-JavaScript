@@ -256,7 +256,6 @@ function grade(score){
   }else if (score < 60){
     console.log("F")
   }
-  /*add your code here*/
 }
 grade(85);
 
@@ -274,9 +273,6 @@ HINT - try looking up the .includes() method
 */
 
 
-function vowelCounter(/*add your code here*/) {
-  /*add your  code here*/
-}
 
 
 
