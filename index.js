@@ -1,3 +1,9 @@
+/*LINK TO CODEPEN WITH WORKING ANSWERS TO CHALLENGES*/
+/* https://codepen.io/jacobstephens17/pen/RwRBWpK?editors=0012 */
+/*LINK TO CODEPEN WITH WORKING ANSWERS TO CHALLENGES*/
+
+
+
 /*🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️ Task 1: Warm-up! 🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️*/
 
 /*MAKE SURE TO RETURN ALL OF THE ANSWERS ON THESE TASKS, IF YOU DON'T, THE AUTOGRADER WILL NOT WORK*/
